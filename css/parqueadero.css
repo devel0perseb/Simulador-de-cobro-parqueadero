@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f9ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-shadow {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.recargo-badge {
+    transition: all 0.3s ease;
+}
+
+.recargo-badge.active {
+    background-color: #ef4444;
+    color: white;
+}
+
+.btn-calculate {
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    transition: all 0.3s ease;
+}
+
+.btn-calculate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+}
+
+.result-card {
+    transition: all 0.5s ease;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.result-card.show {
+    opacity: 1;
+    height: auto;
+    padding: 1.5rem;
+}
