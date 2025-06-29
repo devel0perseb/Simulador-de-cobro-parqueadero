@@ -10,6 +10,7 @@ function calcularPago(tipoVehiculo, horasEstadia, salidaDespuesDeLas10PM) {
     case "carro": tarifaPorHora = 2000; break;
     case "camión":
     case "camion": tarifaPorHora = 3500; break;
+    
     default:
       console.log("❌ Tipo de vehículo no válido.");
       return;
